@@ -4,42 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Template</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="template.png" type="image/png">
+    <link rel="apple-touch-icon" href="template.png">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
     <header>
-        <h1>Website Template</h1>
-        <p>A starting point for your next single-page website.</p>
+        <div class="container">
+            <h1>Website Template</h1>
+            <p>A starting point for your next single-page website.</p>
+        </div>
     </header>
 
     <main>
-        <div id="developer-note" style="background-color: #fffbe6; border: 1px solid #ffe58f; padding: 1rem; margin-bottom: 1.5rem; border-radius: 8px; max-width: 800px; margin-left: auto; margin-right: auto;">
-            <p><strong>Note for developers:</strong> This template uses a `gh-pages` branch for previews. If you created a repository from this template, please ensure you selected "Include all branches" so the preview feature works correctly. You can safely remove this message from `index.html`.</p>
-            <button onclick="this.parentElement.style.display='none'" style="display: block; margin-top: 0.5rem;">Dismiss</button>
-        </div>
-
-        <section id="hero-panel">
-            <h2>Welcome</h2>
-            <p>This is a template for a single-page website with GitHub Pages deployment and pull request previews configured.</p>
-            <button id="learn-more-btn">Learn More</button>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Your New Website</h2>
+                <p>This is a modern, responsive, and attractive template for your next project.</p>
+                <a href="#features" class="btn">Learn More</a>
+            </div>
         </section>
 
-        <section id="feature-section-1">
-            <h2>Feature One</h2>
-            <p>Description of the first key feature of your website.</p>
-        </section>
-
-        <section id="feature-section-2">
-            <h2>Feature Two</h2>
-            <p>Description of the second key feature of your website.</p>
+        <section id="features" class="container">
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>PWA Ready</h3>
+                    <p>Includes a manifest file to allow the website to be installed as a Progressive Web App.</p>
+                </div>
+                <div class="feature">
+                    <h3>Modern Design</h3>
+                    <p>A clean and modern design with a responsive layout, built with HTML, CSS, and vanilla JavaScript.</p>
+                </div>
+                <div class="feature">
+                    <h3>iOS Home Screen Icon</h3>
+                    <p>Support for adding the website to the home screen on iOS devices with a beautiful icon.</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name or Company</p>
+        <div class="container">
+            <p>&copy; 2025 Your Name or Company</p>
+        </div>
     </footer>
 
-    <script src="assets/js/main.js" type="module"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

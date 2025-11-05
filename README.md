@@ -6,6 +6,9 @@ A template for single-page websites built with HTML, CSS, and vanilla JavaScript
 *   **GitHub Pages Deployment**: Automatically builds and deploys your site.
 *   **Production Site**: Pushes to `main` are deployed to the live site.
 *   **Pull Request Previews**: Every PR is deployed to a unique preview URL, with comments on the PR to link to it.
+*   **PWA Ready**: Includes a manifest file to allow the website to be installed as a Progressive Web App.
+*   **Modern Design**: A clean and modern design with a responsive layout.
+*   **iOS Home Screen Icon**: Support for adding the website to the home screen on iOS devices.
 *   **Automatic Cleanup**: Preview deployments are automatically deleted when the PR is closed or merged.
 
 ## Using This As a Template
