@@ -1,1 +1,0 @@
-This placeholder represents a 512x512 PNG icon for the OTC Flow PWA manifest. Replace with the actual binary image named icon-512.png when available.
